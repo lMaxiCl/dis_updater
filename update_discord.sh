@@ -13,7 +13,7 @@ curl -o "$DOWNLOAD_PATH" "$TAR_URL"
 if [ -f "$DOWNLOAD_PATH" ]; then
     # check if discord is already installed
     # Check if the folder exists in the $HOME directory
-    if [ -d "$HOME/$FOLDER_NAME" ]; then
+    if [ -d "$HOME/Discord" ]; then
         echo "Folder '$FOLDER_NAME' exists in the HOME directory."
         #Delete Discord directory
         rm -rf "$HOME/Discord"
