@@ -27,7 +27,7 @@ if [ -f "$DOWNLOAD_PATH" ]; then
         echo "The command exists in .bashrc."
     else
         echo "The command does not exist in .bashrc."
-        echo "alias discord='Discord/Discord'" >> ~/.bashrc
+        echo "alias discord='$HOME/Discord/Discord'" >> ~/.bashrc
     fi
 
     # Extract the tar file to HOME
