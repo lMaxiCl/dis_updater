@@ -7,7 +7,7 @@ TAR_URL="https://discord.com/api/download?platform=linux&format=tar.gz"
 DOWNLOAD_PATH="$HOME/Downloads/discord.tar.gz"
 
 # Download the tar file
-curl -o "$DOWNLOAD_PATH" "$TAR_URL"
+curl -L -o "$DOWNLOAD_PATH" "$TAR_URL"
 
 # Check if the download was successful
 if [ -f "$DOWNLOAD_PATH" ]; then
