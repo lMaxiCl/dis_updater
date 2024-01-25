@@ -18,7 +18,7 @@ This Bash script automates the process of updating Discord on a Linux system. It
 
 3. **Run the Script**:
     ```
-    ./update_discord.sh
+    sh update_discord.sh
     ```
 
 ## Usage
